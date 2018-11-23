@@ -18,7 +18,7 @@
       (set! (.-fillStyle ctx) "rgb(0,0,0)")
       (.clearRect ctx 0 0 (.-width canvas) (.-height canvas))
       (.beginPath ctx)
-      (.arc ctx center-x center-y radius 0, (* 2 (.-PI js/Math)) false)
+      (.arc ctx center-x center-y radius 0 (* 2 (.-PI js/Math)) false)
       (.fill ctx)
       (.stroke ctx))))
 
