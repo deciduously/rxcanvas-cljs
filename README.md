@@ -2,10 +2,6 @@
 
 Backing code for [Reactive Canvas with ClojureScript and Vue]().
 
-## Overview
-
-FIXME: Write a paragraph about the library/project and highlight its goals.
-
 ## Setup
 
 To get an interactive development environment run:
