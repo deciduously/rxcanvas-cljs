@@ -1,0 +1,1 @@
+{:output-wrapper false, :externs ["closure-js/externs"], :libs ["closure-js/libs"], :main rxcanvas-cljs.core, :asset-path "js/compiled/out", :output-to "resources/public/js/compiled/rxcanvas_cljs.js", :output-dir "resources/public/js/compiled/out", :source-map-timestamp true, :preloads [devtools.preload]}
