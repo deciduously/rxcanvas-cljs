@@ -28,7 +28,7 @@
    :state (fn [] {:size (atom 10)})
    :methods {:draw-dot (fn [this state _]
       ;; update the state
-      (swap! (:size state) #(identity (.-value (.querySelector js/document "#size"))))
+      (reset! (:size state) (.-value (.querySelector js/document "#size")))
       ;; grab the new value and the canvas for drawing
       (draw @(:size state) (.querySelector js/document "#rx"))
       )}})
