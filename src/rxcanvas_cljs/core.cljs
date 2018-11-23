@@ -15,7 +15,7 @@
     (let [ctx (.getContext canvas "2d")
           center-x (/ (.-width canvas) 2)
           center-y (/ (.-height canvas) 2)]
-      (set! (.-fillStyle ctx) "rgb(0,0,0")
+      (set! (.-fillStyle ctx) "rgb(0,0,0)")
       (.clearRect ctx 0 0 (.-width canvas) (.-height canvas))
       (.beginPath ctx)
       (.arc ctx center-x center-y radius 0, (* 2 (.-PI js/Math)) false)
